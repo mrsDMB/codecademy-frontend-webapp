@@ -1,13 +1,25 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "converting ES6 to ES5",
+  "main": "HospitalClasses.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "build": "babel src -d lib"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsDMB/codecademy-frontend-webapp.git"
+  },
+  "author": "DMB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsDMB/codecademy-frontend-webapp/issues"
+  },
+  "homepage": "https://github.com/mrsDMB/codecademy-frontend-webapp#readme"
 }
-
