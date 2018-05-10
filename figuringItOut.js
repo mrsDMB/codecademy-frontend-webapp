@@ -14,8 +14,8 @@
   }
 
 
-// export {availableAirplanes, flightRequirements, meetsStaffRequirements};
-// console.log(meetsStaffRequirements(availableAirplanes[0].availableStaff, flightRequirements.requiredStaff));
+export {availableAirplanes, flightRequirements, meetsStaffRequirements};
+console.log(meetsStaffRequirements(availableAirplanes[0].availableStaff, flightRequirements.requiredStaff));
 
 
 
